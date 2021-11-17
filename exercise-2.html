@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Exercise 2 - Selecting Element by ID using jQuery</title>
+<script src="//code.jquery.com/jquery-3.6.0.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(document.getElementById("first_sentence").style.backgroundColor = 'yellow');
+    $(document.getElementById("second_sentence").style.backgroundColor = 'green');
+  });
+</script>
+</head>
+<body>
+    <p id="first_sentence">This is a sentence.</p>
+    <p id="second_sentence">This is another sentence.</p>
+    <p>This is one more sentence.</p>
+    <p><strong>Note:</strong> The value of the id attribute must be unique in an HTML document.</p>
+</body>
+</html>
